@@ -1,0 +1,19 @@
+*{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hero{
+    background-image: url("../img/hero_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+}
+.hero-cake{
+    background-image: url(../img/hero_tort.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem 1rem 10rem 1rem;
+}
