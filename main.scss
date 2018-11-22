@@ -1,19 +1,99 @@
 *{
-    color: #fff;
     font-family: 'Nunito', sans-serif;
 }
+
+
 
 .hero{
     background-image: url("../img/hero_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 40rem;
+    color: #fff;
+    h1{
+        font-weight:  bolder;
+    }
+}
+
+section{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 .hero-cake{
     background-image: url(../img/hero_tort.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 20rem;
-    height: 20rem;
-    border-radius: 10rem 1rem 10rem 1rem;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 8rem .8rem 8rem .8rem;
+}
+
+.icon-container{
+    background-color: rgb(253, 222, 153);
+    .icon-bg-s{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 5rem .5rem 5rem .5rem;
+        background-color: #fff;
+        padding: 3rem;
+    }
+}
+.round{
+    border-radius: 10% 10%;
+}
+
+.hr-orange{
+    height: .3rem;
+    background-color: orange;
+}
+.ivory{
+    background-color: rgb(253, 222, 153);
+}
+
+.cake{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50% 5% 50% 5%;
+    border: 1px solid red;
+    
+    }
+
+
+
+.icon-bg-l{
+    width: 18rem;
+    height:18rem;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 8rem .8rem 8rem .8rem;
+    .icon-bg-s{
+        width: 7rem;
+        height: 7rem;
+        border-radius: 3.5rem .35rem 3.5rem .35rem;     
+    }
+    .red{
+        background-color: rgba(211, 86, 86, 0.2);
+    }
+    .blue{
+        background-color: rgba(54, 141, 240, 0.2);
+    }
+    .green{
+        background-color: rgba(133, 231, 120, 0.2);
+    }
+}
+
+
+    
+footer{
+    color: orange;
+    a{
+        color: orange;
+
+        &:hover{
+            color: darkorange;
+        }
+        &:visited{
+            color: orange;
+        }
+    }
 }
