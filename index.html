@@ -14,42 +14,45 @@
 <body>
 
     <div class="hero ">
-        <div class="container">
-            <div class="row"> <!--navbar do poprawki-rozpycha sie za bardzo-->
-                <nav class="navbar navbar-expand-md navbar-dark bg-none w-100">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+        <div class="container-fluid py-0">
+            <div class="row">
+                <div class="col-12 fixed-top p-0">
+                    <nav class="navbar navbar-expand-md navbar-dark shadow bg-light w-100">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Price</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">FAQ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Why us?</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Career</a>
-                            </li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </div>
-                </nav>
+                        <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Price</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">FAQ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Why us?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Career</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+
             </div>
         </div>
-        <div class="container">
+        <div class="container pt-0">
             <div class="row mt-5">
                 <div class="col-md-6 col-sm-12 my-auto text-center">
-                    <h2 class="display-3">header</h2>
+                    <h2 class="display-3 mt-5 p-3">header</h2>
                     <p>some text</p>
                     <button class="btn btn-success shadow" type="submit">button</button>
                 </div>
@@ -61,7 +64,7 @@
     </div>
 
     <section>
-        <div class="container-fluid icon-container py-5">
+        <div class="container-fluid ivory icon-container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="icon-bg-s shadow mb-3 mx-auto">
@@ -115,11 +118,10 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-
-                    <div class="circle"></div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 text-center">
+                    <div class="circle position-absolute"></div>
                     <img class="img-fluid shadow round" src="img/s2_img1.jpg">
-                    <div class="my-4">
+                    <div class="my-5">
                         <h2>Sunt explicabo</h2>
                         <p>omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
                     </div>
@@ -127,19 +129,19 @@
 
 
 
-                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
-                    <div class="circle"></div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 text-center">
+                    <div class="circle position-absolute"></div>
                     <img class="img-fluid shadow round" src="img/s2_img2.jpg">
-                    <div class="my-4">
+                    <div class="my-5">
                         <h2>Sunt explicabo</h2>
                         <p>omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12 text-center mx-auto">
-                    <div class="circle"></div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 text-center mx-auto">
+                    <div class="circle position-absolute"></div>
                     <img class="img-fluid shadow round" src="img/s2_img3.jpg">
-                    <div class="my-4">
+                    <div class="my-5">
                         <h2>Sunt explicabo</h2>
                         <p>omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
                     </div>
@@ -153,7 +155,7 @@
     </section>
 
     <section>
-        <div class="container">
+        <div class="container-fluid sky">
             <div class="row">
                 <div class="col-6 mx-auto">
                     <h2 class="text-center">Magna Aliqua</h2>
@@ -172,21 +174,32 @@
 
 
             <div class="row py-5">
-                <div class="col-md-4 col-sm-12">
-                    <div class="cake text-center mx-auto my-3"></div>
+                <div class="col-md-5 col-sm-12">
+                    <div class="cake shadow text-center mx-auto my-3">
+                        <div class="bg-cake w-100 pt-4">
+                            <h3>Dolore</h3>
+                        </div>
+                        <p class="p-4">sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
                 </div>
-                
-                <div class="col-md-2">
-                    <!-- 2 divy obok + kreskowana linia do zrobienia-->
+                <div class="col-md-1 col-sm-8 col-10 mt-md-0 mt-sm-5 mt-5 p-3 mx-auto border-r">
+                    <div class="circle position-absolute">or</div>
                 </div>
-                <div class="col-md-4 col-sm-12">
-                    <div class="cake text-center mx-auto my-3"></div>
+
+                <div class="col-md-1 col-sm-8 col-10 mb-md-0 mb-sm-5 mb-5 p-3 mx-auto border-l"></div>
+                <div class="col-md-5 col-sm-12">
+                    <div class="cake shadow text-center mx-auto my-3">
+                        <div class="bg-cake w-100 pt-4">
+                            <h3>Dolore</h3>
+                        </div>
+                        <p class="p-4">sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-4 mx-auto">
-                    <button class="btn btn-light w-100" type="submit">button</button>
+                    <button class="btn btn-light shadow w-100" type="submit">button</button>
                 </div>
             </div>
         </div>
@@ -194,7 +207,7 @@
 
     <section>
         <div class="container-fluid ivory">
-            <div class="row py-5 my-5">
+            <div class="row py-5 my-5 position-relative">
                 <div class="col-lg-4 col-md-6 col-sm-12 text-center">
                     <h1>Vitae Dicta</h1>
                     <div class="hr-orange m-3 w-30"></div>
@@ -228,30 +241,51 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
-            <div class="row">
-                <div class="col-12">
-                <!--relative/absolute do stworzenia... responsywnie-->
+<div class="row justify-content-center">
+                    <div class="col-8">
+                    <div class="position-absolute rel shadow w-100 p-4">
+                        <div class="row justify-content-center">
+                            <div class="col-6 text-center">
+                                <h5 class="mt-4"><b>Lorem ipsum dolor sit amet</b></h5>
+                            </div>
+                            <div class="col-6 text-center">
+                                <button class="btn btn-success mt-4 ml-4" type="submit">button</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                </div>
+
         </div>
     </section>
 
     <footer>
-        <nav class="nav">
-            <ul class="nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Privacy Policy</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ</a>
-                </li>
-            </ul>
-        </nav>
-        <p class="text-center"><b>All rights reserved</b></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-sm-12 mx-auto">
+                    <nav class="nav m-3">
+                        <ul class="nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 mx-auto">
+                    <p class="text-center"><b>All rights reserved</b></p>
+                </div>
+            </div>
+        </div>
 
     </footer>
 
